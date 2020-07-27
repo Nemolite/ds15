@@ -227,32 +227,42 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 100%;
 	height: 100%;
 }
-
-
-
 /* end welcome*/
-
-
 
 /* info */
 .info {
     width: 100%;
-    height: 700px;
-    border:1px solid yellow;
+    height: 1000px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .info__news {
 	width: 75%;
-	height: 700px;
+	height: 1000px;
 	background-color: yellow;
-	float: left;
+	background-image: url(../img/bg-news.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	
 }
 
+/*.info__news img {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}*/
+
 .info__sidebar {
-	width: 24%;
-	height: 700px;
+	width: 25%;
+	height: 1000px;
 	background-color: #0048BA;
-	float: left;
+	
 }
 
 /* end info */
