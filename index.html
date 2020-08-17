@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Детский сад 15 Сказка</title>
 	<meta name="viewport" content="width=device-width, user-scalable=yes">
+
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/stylename.css">
 </head>
@@ -11,18 +12,54 @@
 	<div class="main">
 		<header class="header">
           <div class="top-menu">
-          	<ul class="list">
-          		<li><a href="#">Группы детского сада</a></li>
-          		<li><a href="#">Страницы педагогов</a></li>
-          		<li><a href="#">Работа логопеда</a></li>
-          		<li><a href="#">Педагог-психолог</a></li>
+          	 <ul class="list">
+          	 	<li>
+          		<a id="btn1" href="#">Группы детского сада</a>
+          		<ul class="sub-menu" id="sub1">
+          			
+          				<li><a href="#">Группа №1 – «Дружные ребята»</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          		</ul>
+          		</li>
+          		<li>
+          			
+           		<li><a id="btn2" href="#">Страницы педагогов</a>
+                <ul class="sub-menu" id="sub2">
+          			
+          				<li><a href="#">Страницы педагогов Страницы педагоговСтраницы педагоговСтраницы педагогов</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          		</ul>
+
+           		</li>
+          		<li>
+          			<a id="btn3" href="#">Работа логопеда</a>
+          			<ul class="sub-menu" id="sub3">
+          			
+          				<li><a href="#">Страницы педагогов</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          		</ul>
+
+          		</li>
+          		<li>
+          			<a id="btn4" href="#">Педагог-психолог</a>
+                    	<ul class="sub-menu" id="sub4">
+          			
+          				<li><a href="#">Страницы педагогов</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          				<li><a href="#">Страницы педагогов</a></li>
+          		</ul>
+          		</li>
           		<li><a href="#">Версия для слабовидящих</a></li>
-          		<li><a href="#">Вход/Регистрация</a></li>
+          		<li><a href="#">Вход/Регистрация</a></li> 
+          		<!-- <li><a href="#">Выход</a></li> -->
           	</ul>
          
           </div> <!-- class="top-menu" -->
           <div class="header_images">
-          	<img src="img/top.jpeg" alt="">
+           	<img src="img/top2.jpeg" alt=""> 
           	<h1>Муниципальное бюджетное дошкольное образовательное учреждение «Детский сад №15 «Сказка» города Шумерля Чувашской Республики</h1>
           
           </div>
@@ -30,6 +67,7 @@
 	    </header>
 
 	<div class="content">
+		
        <section class="middle-menu">
 			<ul class="content__list">
           		<li><a href="#">Сведения об образовательной организации</a></li>
@@ -43,10 +81,10 @@
 
         <section class="welcome">
 			<div class="welcome__slider">
-				<img src="img/fon.jpg" alt="">
+				 <img src="img/fon.jpg" alt=""> 
 			</div>
 			<div class="welcome__message">
-				<img src="img/bg-welcome.jpg" alt="">
+				<img src="img/w2.jpeg" alt="">
 				<h3>Здравствуйте!
 Мы рады приветствовать Вас на официальном сайтеМБДОУ "Детский сад №15 "Сказка" города Шумерля Чувашской Республики Юридический адрес: 429120 Чувашская Республика, г. Шумерля, ул. Горького, д.18  
 Телефон: 2-40-65.</h3>
@@ -54,6 +92,14 @@
         </section> <!-- class="welcome" --> 
         <section class="info">
 			<div class="info__news">
+				<div class="tab-menu">
+					<ul class="content__list">
+          		<li><a href="#">Новости</a></li>
+          		<li><a href="#">Мероприятия</a></li>
+          		<li><a href="#">Объявления</a></li>
+          		
+          	</ul>
+				</div>
 				<h2>Новости</h2>
 
 				<div class="info__news-block">
@@ -95,9 +141,9 @@
 							<img src="img/fon.jpg" alt="">
 						</div>
 						<div class="day__mini-text">
-							<h3>Заголовок статьи он может быть длинный</h3>
+							<h3>Воспитанники МБДОУ «Детского сада №15 «Сказка» присоединились к «Марафону поздравлений» Чувашии со 100-летием.</h3>
 							<p>Дата публикации <span>27 июля 2020 года</span></p>
-							<p>Это сам текстLorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolore quisquam, dolorem libero, vel saepe doloribus molestias accusantium sed suscipit.</p>
+						<!-- 	<p>Это сам текстLorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolore quisquam, dolorem libero, vel saepe doloribus molestias accusantium sed suscipit.</p> -->
 						</div>	
         
                     </article>
@@ -114,8 +160,9 @@
                     </article>
 					
 				</div>
+				<!-- блок пагинации-->
 				<div class="info__news-pagination">
-					блок пагинации
+					
 				</div>
 				
 
@@ -201,14 +248,128 @@
     </div>	<!-- class="content" -->
 
 		<footer class="footer">
-			<div class="footer__banners">
-				
+			<div class="footer__baners">
+				<div class="baners-row">
+    
+                <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+
+				  <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+
+				  <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+
+				  <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+			
+			    </div>
+
+			    <div class="baners-row">
+					
+					 <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+
+				  <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+
+				  <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+
+				  <a href="#">
+				<div class="baner">
+					<div class="baner-img">
+						<img src="img/fon.jpg" alt="">
+					</div>
+					<div class="baner-inf">
+						<p>Поясняющий текст к банеру может он также будет длинный</p>
+					</div>
+				</div>
+				</a>
+			
+			    </div>
+
 			</div>
+<div class="footer-map">
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A85cd938b1b904ed91e24eaba262e7e74c69e11392cb31bd5225f8e0ef5068cb2&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+
+
 			<div class="footer__info">
-				информация
+				<img src="img/footer-img.jpg" alt="">
+				<h5>
+				Официальный сайт Муниципального бюджетного дошкольного образовательного учреждения «Детский сад №15 «Сказка» города Шумерля Чувашской Республики	
+				</h5>
+				<h5>
+				Юридический адрес: 429120 Чувашская Республика, г. Шумерля, ул. Горького, д.18 Телефон: 2-40-65.	
+				</h5>
+
+				<h6>Сайт создан 
+					<a href="http://vandraren.ru/" target="_blank">
+						 VANDRAREN - Разработка web-проектов
+					</a>
+				</h6>
 			</div>
 		</footer>
 		
 	</div> <!-- class="main" -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
